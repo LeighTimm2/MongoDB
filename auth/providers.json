@@ -1,0 +1,34 @@
+{
+    "api-key": {
+        "name": "api-key",
+        "type": "api-key",
+        "disabled": true
+    },
+    "custom-token": {
+        "name": "custom-token",
+        "type": "custom-token",
+        "config": {
+            "audience": [],
+            "requireAnyAudience": false,
+            "signingAlgorithm": "HS256",
+            "useJWKURI": false
+        },
+        "secret_config": {
+            "signingKeys": [
+                "TestKey"
+            ]
+        },
+        "disabled": false
+    },
+    "local-userpass": {
+        "name": "local-userpass",
+        "type": "local-userpass",
+        "config": {
+            "autoConfirm": true,
+            "resetFunctionName": "resetFunc",
+            "runConfirmationFunction": false,
+            "runResetFunction": true
+        },
+        "disabled": false
+    }
+}
