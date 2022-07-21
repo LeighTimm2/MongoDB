@@ -9,7 +9,7 @@
         "type": "custom-token",
         "config": {
             "audience": [],
-            "jwkURI": "https://apps.sqrcloud.com/FES/Data/.well-known/openid-configuration/jwks",
+            "jwkURI": "https://apps.sqrcloud.com/SSO/.well-known/openid-configuration/jwks",
             "requireAnyAudience": false,
             "signingAlgorithm": "",
             "useJWKURI": true
