@@ -9,14 +9,13 @@
         "type": "custom-token",
         "config": {
             "audience": [],
+            "jwkURI": "https://apps.sqrcloud.com/FES/Data/.well-known/openid-configuration/jwks",
             "requireAnyAudience": false,
-            "signingAlgorithm": "RS256",
-            "useJWKURI": false
+            "signingAlgorithm": "",
+            "useJWKURI": true
         },
         "secret_config": {
-            "signingKeys": [
-                "TestKey"
-            ]
+            "signingKeys": []
         },
         "disabled": false
     },
