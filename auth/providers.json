@@ -9,7 +9,7 @@
         "type": "custom-token",
         "config": {
             "audience": [],
-            "jwkURI": "https://apps.sqrcloud.com/SSO/.well-known/openid-configuration/jwks",
+            "jwkURI": "https://apps.sqrcloud.com/SSO2/.well-known/openid-configuration/jwks",
             "requireAnyAudience": false,
             "signingAlgorithm": "",
             "useJWKURI": true
@@ -17,7 +17,14 @@
         "secret_config": {
             "signingKeys": []
         },
-        "disabled": false
+        "disabled": false,
+        "metadata_fields": [
+            {
+                "required": true,
+                "name": "name",
+                "field_name": "name"
+            }
+        ]
     },
     "local-userpass": {
         "name": "local-userpass",
